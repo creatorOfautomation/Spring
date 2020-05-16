@@ -13,6 +13,11 @@
 <body>
 <h2>Customer registered</h2>
 
-Name: '${customer.firstName} ${customer.lastName}'
+Name: '${customer.firstName} ${customer.lastName}';
+
+<br><br> Free passes '${customer.freePasses}'
+<br><br> Postal code '${customer.postalCode}'
+<br><br> Course code '${customer.courseCode}'
+<br><br> Link to social '${customer.link}'
 </body>
 </html>
